@@ -1,0 +1,519 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", 'sans-serif';
+}
+
+.header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+
+.header .left img {
+  width: 20px;
+  height: 20px;
+}
+
+.header .left i {
+  font-size: 10px;
+}
+
+.header .logo {
+  width: 200px;
+}
+
+.header .right {
+  display: flex;
+  justify-content: space-evenly;
+  width: 170px;
+}
+
+.header .right i {
+  font-size: 20px;
+  padding: 8px;
+}
+
+.header .right p {
+  font-size: 15px;
+  font-weight: 400;
+  padding-top: 7px;
+}
+
+.navigate {
+  display: flex;
+  align-items: center;
+  /* flex-direction: column; */
+  justify-content: center;
+  width: 100%;
+}
+
+.navigate ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navigate ul li {
+  list-style: none;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px;
+  font-weight: 600;
+}
+
+.navigate ul li a {
+  text-decoration: none;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.line {
+  width: 100%;
+  height: 40px;
+  background-color: rgb(43, 43, 206);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.line p {
+  font-size: 20px;
+  color: #fff;
+}
+
+
+.hero-div {
+  background-color: rgba(110, 110, 199, 0.623);
+
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 380px;
+  padding: 20px;
+  padding-top: 80px;
+}
+
+.hero-div .text-div {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.hero-div .text-div h1 {
+  font-size: 30px;
+  padding-bottom: 15px;
+  color: rgb(41, 41, 150);
+}
+
+.hero-div .text-div p {
+  font-size: 17px;
+  padding-bottom: 15px;
+  color: #fff;
+}
+
+.hero-div .text-div button {
+  width: 200px;
+  height: 35px;
+  background-color: rgb(43, 43, 206);
+  color: #fff;
+  font-weight: 600;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.hero-div .hero-img {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-div .hero-img img {
+  width: 390px;
+  height: 380px;
+  position: relative;
+  top: -35px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.box {
+  display: flex;
+  width: 250px;
+  padding: 20px;
+}
+
+.box .t h4 {
+  font-size: 12px;
+}
+
+.box .t p {
+  font-size: 10px;
+}
+
+.box i {
+  font-size: 30px;
+}
+
+.text {
+  font-size: 14px;
+}
+
+.big-txt {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 45px;
+  margin-top: 40px;
+  font-weight: 600;
+}
+
+.product-info {
+  display: flex;
+  width: 100%;
+  height: 300px;
+  justify-content: space-between;
+  padding: 20px 70px 0px 100px;
+}
+
+.product-info .product {
+  width: 50%;
+}
+
+.product-info .description {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.description h2 {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.description p {
+  font-size: 13px;
+  padding-bottom: 20px;
+}
+
+.description span {
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+.description button {
+  width: 200px;
+  height: 35px;
+  background-color: rgb(43, 43, 206);
+  color: #fff;
+  font-weight: 600;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.bg {
+  margin-top: 80px;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 70px 0px 70px;
+}
+
+.bg1 {
+  width: 40%;
+  background-image: url('./images/WOMAN.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 30px;
+}
+
+.content {
+  text-align: center;
+}
+
+.bg1 .content h1 {
+  font-size: 30px;
+  color: #fff;
+  padding-top: 100px;
+}
+
+.bg1 .content p {
+  font-size: 15px;
+  color: #fff;
+  padding-top: 10px;
+}
+
+.bg1 .content button {
+  width: 200px;
+  height: 35px;
+  background-color: #fff;
+  color: rgb(43, 43, 206);
+  font-weight: 600;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin-top: 150px;
+  cursor: pointer;
+}
+
+.bg2 {
+  width: 40%;
+  background-image: url('./images/CREAM\ OPEN.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content2 {
+  text-align: center;
+}
+
+.bg2 .content2 h1 {
+  font-size: 30px;
+  color: rgb(26, 26, 104);
+  padding-top: 100px;
+}
+
+.bg2 .content2 p {
+  font-size: 12px;
+  color: #000;
+  padding-top: 20px;
+}
+
+.bg2 .content2 button {
+  width: 200px;
+  height: 35px;
+  background-color: rgb(43, 43, 206);
+  color: #fff;
+  font-weight: 600;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin-top: 110px;
+  cursor: pointer;
+}
+
+.slider-sec {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  padding: 20px 10px 0px 10px;
+  justify-content: space-evenly;
+}
+
+.slider-sec .insta {
+  width: 275px;
+  height: 275px;
+  background-color: rgba(110, 110, 199, 0.623);
+  text-align: center;
+  align-items: center;
+}
+
+.insta h1 {
+  font-size: 20px;
+  padding-top: 30px;
+}
+
+.insta i {
+  font-size: 80px;
+  padding-top: 30px;
+}
+
+.insta p {
+  font-size: 15px;
+  padding-top: 30px;
+}
+
+.insta button {
+  width: 200px;
+  height: 35px;
+  background-color: rgb(43, 43, 206);
+  color: #fff;
+  font-weight: 600;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.slider-sec img {
+  width: 275px;
+  height: 275px;
+}
+
+.reviews {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 60px;
+}
+
+.reviews .box {
+  width: 275px;
+  height: 275px;
+  border: 1px solid blue;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 15px 0px 15px;
+}
+
+.reviews .box p {
+  font-size: 14px;
+  padding-bottom: 17px;
+}
+
+.box img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+}
+
+.box h5 {
+  text-transform: uppercase;
+  padding-top: 30px;
+  padding-left: 10px;
+}
+
+.box .profile {
+  display: flex;
+}
+
+.review-btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.review-btn button {
+  width: 200px;
+  height: 35px;
+  background-color: #fff;
+  color: rgb(43, 43, 206);
+  font-weight: 600;
+  border-radius: 5px;
+  outline: 1px solid rgb(43, 43, 206);
+  border: none;
+  margin-top: 15px;
+  cursor: pointer;
+
+}
+
+.featured {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.details{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 85vh;
+  margin-top: 60px;
+  background-color: rgba(110, 110, 199, 0.623);
+}
+.details .mains{
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+  width: 100%;
+  padding-top: 40px;
+}
+.details .detail{
+  width: 100%;
+  display: flex;
+  height: 200px;
+  justify-content: space-between;
+  padding: 20px 60px 0px 60px;
+}
+.detail h1{
+  font-size: 15px;
+}
+.detail ul {
+  display: flex;
+  flex-direction: column;
+}
+.detail ul a{
+  text-decoration: none;
+  font-size: 12px;
+  padding-top: 10px;
+  padding-bottom: 8px;
+}
+
+.news{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.news h1{
+  font-size: 20px;
+}
+.news p{
+  font-size: 15px;
+  text-align: center;
+  padding-top: 10px;
+}
+.news .e-div{
+  padding-top: 10px;
+}
+.news .e-div input{
+  height: 35px;
+  width: 250px;
+  border-radius: 2px;
+  border: none;
+  outline: 1px solid rgb(43, 43, 206);
+  padding-left: 10px;
+}
+.e-div button{
+  width: 100px;
+  height: 35px;
+  background-color: rgb(43, 43, 206);
+  color: #fff;
+  font-weight: 600;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.news .socials{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 100px;
+  justify-content: space-evenly;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
